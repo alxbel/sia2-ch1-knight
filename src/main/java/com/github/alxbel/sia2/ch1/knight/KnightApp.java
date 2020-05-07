@@ -6,10 +6,6 @@ import org.springframework.core.io.ClassPathResource;
 
 public class KnightApp {
     public static void main(String[] args) throws Exception {
-        //BeanFactory factory =
-        //        new XmlBeanFactory(new FileSystemResource("hello.xml"));
-
-
         ClassPathResource resource = new ClassPathResource("knight.xml");
         BeanFactory factory = new XmlBeanFactory(resource);
 
